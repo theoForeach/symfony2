@@ -1,0 +1,3 @@
+LufincaBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: LufincaBundle:Default:index }
