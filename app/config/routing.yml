@@ -1,0 +1,10 @@
+LufincaBundle:
+    resource: "@LufincaBundle/Resources/config/routing.yml"
+    prefix:   /
+estatica:
+  pattern: /sitio/{nombre}
+  defaults: { _controller: LufincaBundle:Default:estatica }
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
